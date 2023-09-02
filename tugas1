@@ -1,0 +1,6 @@
+#kpk_3_dan_4
+from math import gcd
+
+def kpk(a, b):
+    return a * b // gcd(a, b)
+print(kpk(3, 4))
